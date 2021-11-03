@@ -1,0 +1,2 @@
+dubbo=com.example.SPI.adaptiveSPI.DubboAdaptiveExtImpl
+spring=com.example.SPI.adaptiveSPI.SpringAdaptiveExtImpl

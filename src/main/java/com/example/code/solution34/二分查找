@@ -1,0 +1,8 @@
+int left = 0, right = nums.length;
+说明搜索区间是[left, right), 左闭右开的。
+对应的是 while(left < right)，即 left == right 时跳出循环即可，
+
+
+int left = 0, right = nums.length - 1;
+说明搜索区间是[left, right]， 左闭右闭的
+对应的是 while(left <= right) ，即 left == right + 1 时跳出循环
